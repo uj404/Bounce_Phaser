@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#gameCanvas {
+  border: 1px solid red;
+  width: 624px;
+  height: 528px;
+  image-rendering: pixelated;
+  position: absolute;
+  display: flex;
+  z-index: 1;
+}
